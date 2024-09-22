@@ -54,7 +54,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/blog">Blog</Link>
+              <Link href="/blogs">Blog</Link>
             </li>
             <li>
               <Link href="/about">About</Link>
@@ -65,7 +65,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <Link
+            href="/blogs/create"
+            className="btn btn-accent text-white rounded-full px-5"
+          >
+            Post Blog
+          </Link>
         </div>
       </div>
     </div>
